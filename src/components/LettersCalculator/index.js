@@ -24,7 +24,7 @@ class LettersCalculator extends Component {
             Enter the phrase
           </label>
           <input
-            type="search"
+            type="text"
             value={searchInput}
             className="search-bar"
             onChange={this.getsearchInput}
